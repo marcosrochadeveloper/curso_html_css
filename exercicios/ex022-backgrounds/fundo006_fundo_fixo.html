@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body {
+            height: 100vh;
+            background: black url('imagens/wallpaper002.jpg') center center / coVER no-repeat fixed;
+
+            /* Shorthand - background
+                color >   image   >    position    > / > size  >  repeat   > attachment
+                black >  url('')  > center center  > / > cover > no-repeat >   fixed 
+            */
+
+            /* background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+
+            background-size: cover;
+            100% 100% - Cria um tamanho fixo para o background nesse caso específico ocupando 100% em altura e largura, mas vai achatando a imagem. (pode ser um valor em pixels ou em porcentagem)
+            auto - valor padrão que ajusta automaticamente para preencher a imagem da forma que o navegador considere melhor
+            contain - mostra a imagem por completo garantindo que não seja cortado nada da imagem que está sendo exibida, mas aí dependendo do tamanho da tela, ela se completa pela cor de fundo que tenha
+            cover - garante que a imagem preenche toda a tela, mesmo que corte uma parte da imagem
+
+            auto | tamanho fixo (em porcentagem ou em pixels) | contain | cover
+
+            background-repeat: repeat;
+
+            background-attachment: fixed; */
+            /*fixed: fundo fixo o que rola é o conteúdo
+            scroll: padrão onde o fundo rola junto com o conteúdo
+            */
+
+        }
+
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi odit quo blanditiis facere? Perspiciatis aspernatur totam earum dolores sed voluptate eaque, magni quaerat incidunt praesentium alias et iure facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aliquam dolorum sunt reiciendis dicta velit vero sed mollitia, optio deserunt commodi eos, sequi odio doloribus cupiditate odit nobis laborum asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis asperiores hic, laudantium odio cupiditate provident consequatur deleniti dolore adipisci eveniet rem quia voluptate soluta tempore tempora dolorum eius aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi odit quo blanditiis facere? Perspiciatis aspernatur totam earum dolores sed voluptate eaque, magni quaerat incidunt praesentium alias et iure facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aliquam dolorum sunt reiciendis dicta velit vero sed mollitia, optio deserunt commodi eos, sequi odio doloribus cupiditate odit nobis laborum asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis asperiores hic, laudantium odio cupiditate provident consequatur deleniti dolore adipisci eveniet rem quia voluptate soluta tempore tempora dolorum eius aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi odit quo blanditiis facere? Perspiciatis aspernatur totam earum dolores sed voluptate eaque, magni quaerat incidunt praesentium alias et iure facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aliquam dolorum sunt reiciendis dicta velit vero sed mollitia, optio deserunt commodi eos, sequi odio doloribus cupiditate odit nobis laborum asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis asperiores hic, laudantium odio cupiditate provident consequatur deleniti dolore adipisci eveniet rem quia voluptate soluta tempore tempora dolorum eius aut?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi odit quo blanditiis facere? Perspiciatis aspernatur totam earum dolores sed voluptate eaque, magni quaerat incidunt praesentium alias et iure facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aliquam dolorum sunt reiciendis dicta velit vero sed mollitia, optio deserunt commodi eos, sequi odio doloribus cupiditate odit nobis laborum asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque omnis asperiores hic, laudantium odio cupiditate provident consequatur deleniti dolore adipisci eveniet rem quia voluptate soluta tempore tempora dolorum eius aut?</p>
+    </main>
+</body>
+</html>
