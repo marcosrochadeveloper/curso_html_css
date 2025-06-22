@@ -7,7 +7,9 @@ Arquivos do Curso de HTML e CSS do Curso em Vídeo
 <a href="https://marcosrochadeveloper.github.io/curso_html_css/desafios/d012/" target="_blank">Projeto Cordel</a>
 
 <h1>Exercícios do Curso</h1>
+
 <a href="https://marcosrochadeveloper.github.io/curso_html_css/exercicios/ex001-ola_mundo/" target="_blank">ex001-ola_mundo</a>
+
 
 <a href="https://marcosrochadeveloper.github.io/curso_html_css/exercicios/ex002-paragrafos/" target="_blank">ex002-paragrafos</a>
 
