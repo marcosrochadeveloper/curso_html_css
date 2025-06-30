@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia veniam optio nobis animi facilis quae culpa iure quaerat ipsum asperiores rem, laudantium excepturi provident voluptatibus cupiditate tempora temporibus, eos magni?</p>
+    <!-- 
+    Utilizando no iframe a configuração
+    sandbox="sandbox" 
+    São bloqueados todo acesso que o site dentro desse iframe possa ter.
+
+    sandbox="allow-same-origin"
+    Permite conteúdos do meu próprio site
+
+    sandbox="allow-forms"
+
+    sandbox="allow-scripts"
+    -->
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso...
+    </iframe>
+    <!-- 
+    referrerpolicy="no-referrer-when-downgrade"
+    Valor padrão de referrerpolicy
+
+    caso utilize referrerpolicy="no-referrer" tornará o conteúdo dentro desse iframe mais limitado.
+    esse parâmetro impede que sejam coletados dados do usuário do site.
+    -->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo harum, optio cum non tenetur nobis, repellat ipsam ut maiores, mollitia consequatur nisi blanditiis tempore voluptatum culpa animi suscipit illo quaerat.</p>
+</body>
+</html>
