@@ -1,0 +1,35 @@
+<!-- # Ex003 - Crie um programa que leia dois números e mostre a soma entre eles.
+# [Exemplo] A EXECUÇÃO DO PROGRAMA SERÁ COMO MOSTRADO ABAIXO:
+# Digite um número: 10
+# Digite outro número: 15
+# A soma de 10 + 15 é igual a 25 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003 - Soma</title>
+</head>
+<body>
+    <p>
+        <label for="num1">Digite um número: </label>
+        <input type="number" name="num1" id="num1">
+    </p>
+    <p>
+        <label for="num2">Digite Outro número: </label>
+        <input type="number" name="num2" id="num2">
+    </p>
+    <input type="submit" value="Somar" onclick="executar()">
+    <div id="res"></div>
+
+    <script>
+        function executar(){
+            let res = document.getElementById("res");
+            let num1 = Number(document.getElementById("num1").value);
+            let num2 = Number(document.getElementById("num2").value);
+            res.innerHTML = `A soma de ${num1} + ${num2} é igual a ${num1+num2}`
+        }
+    </script>
+</body>
+</html>

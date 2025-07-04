@@ -1,0 +1,29 @@
+<!-- # Ex002 - Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
+# [Exemplo] A EXECUÇÃO DO PROGRAMA SERÁ COMO MOSTRADO ABAIXO:
+# Qual o seu nome? Marcos
+# É um prazer te conhecer, Marcos! -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex002 - Boas Vindas</title>
+</head>
+<body>
+    <p>
+        <label for="inome">Qual o seu nome? </label>
+        <input type="text" name="nome" id="inome">
+        <input type="submit" value="Enviar" onclick="executar()">
+    </p>
+    <div id="res"></div>
+
+    <script>
+        function executar(){
+            let nome = document.getElementById("inome").value;
+            let res = document.getElementById("res");
+            res.innerHTML = `É um prazer te conhecer, ${nome}!`
+        }
+    </script>
+</body>
+</html>
